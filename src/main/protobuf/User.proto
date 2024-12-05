@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.kafka.schema.model;
+
+option java_outer_classname = "UserProto";
+
+message User {
+  string id = 1;
+  string firstName = 2;
+  string lastName = 3;
+  string emailId = 4;
+}
